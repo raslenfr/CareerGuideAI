@@ -5,8 +5,7 @@ A comprehensive Flask backend that provides personalized career guidance, course
 text
 
 Backend/
-├── app.py                           
-# Flask application entrypoint
+├── app.py                           # Flask application entrypoint
 ├── extensions.py                    # SQLAlchemy & Bcrypt initialization
 ├── models.py                        # Database models (User, ChatHistory, etc.)
 ├── blueprints/
