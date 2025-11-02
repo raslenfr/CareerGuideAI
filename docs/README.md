@@ -4,34 +4,7 @@ A comprehensive Flask backend that provides personalized career guidance, course
 🏗️ Project Structure
 text
 
-Backend/
-├── app.py                           # Flask application entrypoint
-├── extensions.py                    # SQLAlchemy & Bcrypt initialization
-├── models.py                        # Database models (User, ChatHistory, etc.)
-├── blueprints/
-│   ├── auth_bp.py                   # Authentication endpoints
-│   ├── chatbot_bp.py                # Chatbot with history management
-│   ├── suggester_bp.py              # Career suggester with sessions
-│   ├── recommender_bp.py            # Course recommender
-│   ├── test_reports_bp.py           # Test report API
-│   ├── test_recording_bp.py         # Real-time test recording
-│   └── admin_bp.py                  # Admin interface endpoints
-├── services/
-│   ├── llm_service.py               # LLM integration (Groq/LLaMA3)
-│   ├── job_search_service.py        # Static job/course data
-│   └── fraud_detection_service.py   # ML-powered fraud detection
-├── tests/
-│   ├── diagnostic_framework.py      # Testing framework base classes
-│   ├── test_chatbot.py              # Chatbot AI tests
-│   ├── test_career_suggester.py     # Career suggester tests
-│   └── test_course_recommender.py   # Course recommender tests
-├── run_ai_tests.py                  # CLI test runner
-├── logs/                            # AI diagnostic reports (JSON)
-├── instance/
-│   └── course_recommendation.db     # SQLite database
-├── .env                             # Environment variables
-├── requirements.txt                 # Python dependencies
-└── README.md
+<table> <thead> <tr> <th>Folder/File</th> <th>Type</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td><strong>Backend/</strong></td> <td>Folder</td> <td>Root backend directory</td> </tr> <tr> <td style="padding-left: 30px;">app.py</td> <td>File</td> <td>Flask application entrypoint</td> </tr> <tr> <td style="padding-left: 30px;">extensions.py</td> <td>File</td> <td>SQLAlchemy & Bcrypt initialization</td> </tr> <tr> <td style="padding-left: 30px;">models.py</td> <td>File</td> <td>Database models (User, ChatHistory, etc.)</td> </tr> <tr> <td style="padding-left: 30px;"><strong>blueprints/</strong></td> <td>Folder</td> <td>API route blueprints</td> </tr> <tr> <td style="padding-left: 60px;">auth_bp.py</td> <td>File</td> <td>Authentication endpoints</td> </tr> <tr> <td style="padding-left: 60px;">chatbot_bp.py</td> <td>File</td> <td>Chatbot with history management</td> </tr> <tr> <td style="padding-left: 60px;">suggester_bp.py</td> <td>File</td> <td>Career suggester with sessions</td> </tr> <tr> <td style="padding-left: 60px;">recommender_bp.py</td> <td>File</td> <td>Course recommender</td> </tr> <tr> <td style="padding-left: 60px;">test_reports_bp.py</td> <td>File</td> <td>Test report API</td> </tr> <tr> <td style="padding-left: 60px;">test_recording_bp.py</td> <td>File</td> <td>Real-time test recording</td> </tr> <tr> <td style="padding-left: 60px;">admin_bp.py</td> <td>File</td> <td>Admin interface endpoints</td> </tr> <tr> <td style="padding-left: 30px;"><strong>services/</strong></td> <td>Folder</td> <td>Business logic services</td> </tr> <tr> <td style="padding-left: 60px;">llm_service.py</td> <td>File</td> <td>LLM integration (Groq/LLaMA3)</td> </tr> <tr> <td style="padding-left: 60px;">job_search_service.py</td> <td>File</td> <td>Static job/course data</td> </tr> <tr> <td style="padding-left: 60px;">fraud_detection_service.py</td> <td>File</td> <td>ML-powered fraud detection</td> </tr> <tr> <td style="padding-left: 30px;"><strong>tests/</strong></td> <td>Folder</td> <td>AI testing framework</td> </tr> <tr> <td style="padding-left: 60px;">diagnostic_framework.py</td> <td>File</td> <td>Testing framework base classes</td> </tr> <tr> <td style="padding-left: 60px;">test_chatbot.py</td> <td>File</td> <td>Chatbot AI tests</td> </tr> <tr> <td style="padding-left: 60px;">test_career_suggester.py</td> <td>File</td> <td>Career suggester tests</td> </tr> <tr> <td style="padding-left: 60px;">test_course_recommender.py</td> <td>File</td> <td>Course recommender tests</td> </tr> <tr> <td style="padding-left: 30px;">run_ai_tests.py</td> <td>File</td> <td>CLI test runner</td> </tr> <tr> <td style="padding-left: 30px;"><strong>logs/</strong></td> <td>Folder</td> <td>AI diagnostic reports (JSON)</td> </tr> <tr> <td style="padding-left: 30px;"><strong>instance/</strong></td> <td>Folder</td> <td>Database instance</td> </tr> <tr> <td style="padding-left: 60px;">course_recommendation.db</td> <td>File</td> <td>SQLite database</td> </tr> <tr> <td style="padding-left: 30px;">.env</td> <td>File</td> <td>Environment variables</td> </tr> <tr> <td style="padding-left: 30px;">requirements.txt</td> <td>File</td> <td>Python dependencies</td> </tr> <tr> <td style="padding-left: 30px;">README.md</td> <td>File</td> <td>Backend documentation</td> </tr> </tbody> </table>
 
 ✨ Features
 Core AI Features
