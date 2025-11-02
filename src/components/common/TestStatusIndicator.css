@@ -1,0 +1,72 @@
+.test-status-indicator {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: white;
+  padding: 10px 16px;
+  border-radius: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 900;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.test-status-indicator:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.test-status-indicator.recording {
+  border-color: #ef4444;
+  background-color: #fef2f2;
+}
+
+.recording-pulse {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.2);
+  }
+}
+
+.test-status-indicator svg {
+  font-size: 16px;
+}
+
+.status-text {
+  color: #1e293b;
+}
+
+.interaction-count {
+  color: #64748b;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .test-status-indicator {
+    bottom: 10px;
+    right: 10px;
+    font-size: 11px;
+    padding: 8px 12px;
+  }
+
+  .test-status-indicator svg {
+    font-size: 14px;
+  }
+}
+

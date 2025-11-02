@@ -1,0 +1,146 @@
+.logs-container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.logs-list {
+  padding: 1rem;
+}
+
+.log-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  border-bottom: 1px solid #e2e8f0;
+  transition: background-color 0.2s ease;
+}
+
+.log-item:last-child {
+  border-bottom: none;
+}
+
+.log-item:hover {
+  background-color: #f7fafc;
+}
+
+.log-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.log-content {
+  flex: 1;
+}
+
+.log-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+  gap: 1rem;
+}
+
+.log-action {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a202c;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.log-timestamp {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #718096;
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.log-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.log-details p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #4a5568;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.log-admin {
+  font-weight: 600;
+}
+
+.log-target {
+  color: #718096;
+}
+
+.log-description {
+  color: #4a5568;
+  font-style: italic;
+}
+
+/* No Logs */
+.no-logs {
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #718096;
+}
+
+.no-logs p {
+  font-size: 1.125rem;
+  margin: 1rem 0 0 0;
+}
+
+/* Logs Summary */
+.logs-summary {
+  background: white;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.logs-summary p {
+  margin: 0;
+  color: #4a5568;
+}
+
+.logs-summary strong {
+  color: #1a202c;
+  font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .log-item {
+    flex-direction: column;
+  }
+
+  .log-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .log-timestamp {
+    margin-top: 0.5rem;
+  }
+}
+
+

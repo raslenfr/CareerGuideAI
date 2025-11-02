@@ -1,0 +1,86 @@
+.not-found-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8fafc;
+    padding: 2rem;
+  }
+  
+  .not-found-content {
+    text-align: center;
+    max-width: 500px;
+  }
+  
+  .not-found-content h1 {
+    font-size: 8rem;
+    font-weight: 700;
+    color: var(--primary);
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+  
+  .not-found-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--foreground);
+  }
+  
+  .not-found-content p {
+    color: #64748b;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .not-found-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .home-button,
+  .back-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--radius);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .home-button {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+  }
+  
+  .home-button:hover {
+    background-color: var(--primary-dark);
+  }
+  
+  .back-button {
+    background-color: transparent;
+    border: 1px solid var(--border);
+    color: #64748b;
+  }
+  
+  .back-button:hover {
+    background-color: #f1f5f9;
+  }
+  
+  @media (max-width: 576px) {
+    .not-found-content h1 {
+      font-size: 6rem;
+    }
+  
+    .not-found-content h2 {
+      font-size: 1.75rem;
+    }
+  
+    .not-found-actions {
+      flex-direction: column;
+    }
+  }
+  

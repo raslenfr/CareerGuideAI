@@ -1,0 +1,183 @@
+.guide-tour-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .guide-tour {
+    background-color: white;
+    border-radius: var(--radius);
+    width: 90%;
+    max-width: 700px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+    animation: slideUp 0.4s ease;
+  }
+  
+  .close-tour {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #64748b;
+    cursor: pointer;
+    z-index: 10;
+    transition: color 0.2s ease;
+  }
+  
+  .close-tour:hover {
+    color: #ef4444;
+  }
+  
+  .tour-content {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .tour-image {
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tour-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .tour-text h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: var(--foreground);
+  }
+  
+  .tour-text p {
+    color: #64748b;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .tour-progress {
+    padding: 1.5rem 2.5rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .progress-dots {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .progress-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #e2e8f0;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .progress-dot.active {
+    background-color: var(--primary);
+    transform: scale(1.2);
+  }
+  
+  .tour-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .tour-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius);
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .tour-button.prev {
+    background-color: transparent;
+    border: 1px solid var(--border);
+    color: #64748b;
+  }
+  
+  .tour-button.prev:hover {
+    background-color: #f8fafc;
+  }
+  
+  .tour-button.next {
+    background-color: var(--primary);
+    border: none;
+    color: white;
+  }
+  
+  .tour-button.next:hover {
+    background-color: var(--primary-dark);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .tour-content {
+      padding: 2rem 1.5rem;
+    }
+  
+    .tour-progress {
+      padding: 1.25rem 1.5rem;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .tour-text h2 {
+      font-size: 1.5rem;
+    }
+  
+    .tour-text p {
+      font-size: 1rem;
+    }
+  }
+  
