@@ -1,0 +1,128 @@
+{
+  "test_id": "chatbot_2025-10-27_18-18-05",
+  "timestamp": "2025-10-27T18:18:05.974134",
+  "test_name": "Career Chatbot AI Test",
+  "test_type": "chatbot",
+  "status": "PASS",
+  "score": 100.0,
+  "duration_seconds": 18.11,
+  "summary": {
+    "total_messages": 5,
+    "messages_sent": 5,
+    "responses_received": 5,
+    "avg_response_time_ms": 3621,
+    "conversation_length": 10,
+    "errors": 0,
+    "warnings": 0
+  },
+  "test_steps": [
+    {
+      "step": 1,
+      "action": "Send message 1: 'Hello, I need career advice...'",
+      "expected": "Receive relevant career guidance response",
+      "actual": "Received reply (1420 chars): Hello, I'm so glad you reached out for career advice. I'm he...",
+      "status": "PASS",
+      "timestamp": "2025-10-27T18:18:05.974134",
+      "duration_ms": 3428,
+      "error": null,
+      "metadata": {
+        "message": "Hello, I need career advice",
+        "reply": "Hello, I'm so glad you reached out for career advice. I'm here to listen, support, and guide you in making informed decisions about your professional journey. To better understand your needs, could you please tell me a bit more about what's been on your mind lately? Are you looking to switch careers, advance in your current field, or perhaps exploring new opportunities? What are your passions, skills, and interests that you'd like to utilize in your career? The more information you share, the more tailored and effective my advice can be. \n\nAlso, what's your current situation like? Are you a student, a working professional, or taking a break from your career? Knowing this context will help me provide more relevant and actionable guidance. Remember, this is a judgment-free and supportive space, so feel free to share as much or as little as you're comfortable with. I'm here to help and support you every step of the way.\n\nIf you're unsure where to start, we can explore some general questions together. What are your long-term career goals, and what steps have you taken so far to achieve them? Are there any specific industries, roles, or companies that interest you? Let's break it down together and create a plan that works for you. \n\nLet's take the first step today, and I'll be happy to guide you through the process. What's the first thing that comes to mind when you think about your career aspirations?",
+        "reply_length": 1420,
+        "quality_score": 90,
+        "relevance": "high",
+        "completeness": "complete"
+      }
+    },
+    {
+      "step": 2,
+      "action": "Send message 2: 'What skills are most important for data ...'",
+      "expected": "Receive relevant career guidance response",
+      "actual": "Received reply (2513 chars): Data science is a fascinating and in-demand field. To succee...",
+      "status": "PASS",
+      "timestamp": "2025-10-27T18:18:09.404147",
+      "duration_ms": 3361,
+      "error": null,
+      "metadata": {
+        "message": "What skills are most important for data science?",
+        "reply": "Data science is a fascinating and in-demand field. To succeed in data science, you'll want to develop a combination of technical, business, and soft skills. Here are some of the most important skills to focus on:\n\n**Technical Skills:**\n\n1. **Programming languages:** Python, R, and SQL are essential for data science. Python is particularly popular, with libraries like NumPy, pandas, and scikit-learn.\n2. **Data analysis and visualization:** Familiarity with tools like Tableau, Power BI, or D3.js for data visualization, and libraries like Matplotlib and Seaborn.\n3. **Machine learning:** Knowledge of supervised and unsupervised learning, deep learning, and neural networks, using libraries like scikit-learn, TensorFlow, or PyTorch.\n4. **Data manipulation and storage:** Understanding of data structures, databases (relational and NoSQL), and big data technologies like Hadoop and Spark.\n\n**Business and Domain Skills:**\n\n1. **Domain expertise:** Knowledge of a specific industry or domain, such as healthcare, finance, or marketing, to understand the context and apply data science effectively.\n2. **Business acumen:** Understanding of business operations, market trends, and organizational goals to communicate insights and recommendations effectively.\n3. **Communication:** Ability to present complex technical concepts to non-technical stakeholders, using storytelling and visualization techniques.\n\n**Soft Skills:**\n\n1. **Problem-solving:** Ability to break down complex problems into manageable parts, identify key issues, and develop creative solutions.\n2. **Collaboration:** Willingness to work with cross-functional teams, including data engineers, product managers, and business stakeholders.\n3. **Curiosity and continuous learning:** Desire to stay up-to-date with new tools, techniques, and methodologies, and to explore new areas of interest.\n\nTo develop these skills, you can explore online courses, boot camps, and certifications, such as:\n\n* Coursera's Data Science Specialization\n* edX's Data Science Essentials\n* Data Science Council of America (DASCA) certifications\n* Kaggle competitions and projects\n\nRemember, becoming a proficient data scientist takes time, practice, and dedication. Focus on building a strong foundation in programming, data analysis, and visualization, and then expand your skills to include machine learning, domain expertise, and business acumen.\n\nWhat's your current level of experience with data science, and which skills do you think you need to develop further?",
+        "reply_length": 2513,
+        "quality_score": 90,
+        "relevance": "high",
+        "completeness": "complete"
+      }
+    },
+    {
+      "step": 3,
+      "action": "Send message 3: 'How can I transition from marketing to d...'",
+      "expected": "Receive relevant career guidance response",
+      "actual": "Received reply (3664 chars): Transitioning from marketing to data analytics can be a grea...",
+      "status": "PASS",
+      "timestamp": "2025-10-27T18:18:12.766997",
+      "duration_ms": 3881,
+      "error": null,
+      "metadata": {
+        "message": "How can I transition from marketing to data analytics?",
+        "reply": "Transitioning from marketing to data analytics can be a great career move, as both fields involve understanding customer behavior and driving business decisions. To make a successful transition, you'll want to leverage your existing marketing skills and acquire new technical skills in data analytics. Here's a step-by-step guide to help you get started:\n\n**Leverage your marketing skills:**\n\n1. **Analytical mindset:** As a marketer, you're likely familiar with analyzing campaign performance, customer data, and market trends. Build on this analytical mindset to transition into data analytics.\n2. **Communication skills:** Marketers are skilled at presenting complex information in a clear and concise manner. These communication skills will serve you well in data analytics, where you'll need to present insights to stakeholders.\n3. **Business acumen:** Your marketing experience has likely given you a strong understanding of business operations, market trends, and customer needs. This business acumen will help you understand the context and apply data analytics effectively.\n\n**Acquire new technical skills:**\n\n1. **Learn the basics of statistics and data analysis:** Familiarize yourself with statistical concepts, data visualization, and data manipulation using tools like Excel, SQL, or Python.\n2. **Programming skills:** Python is a popular language in data analytics, and learning libraries like Pandas, NumPy, and Matplotlib will help you work with data.\n3. **Data visualization tools:** Learn to use tools like Tableau, Power BI, or D3.js to create interactive and informative dashboards.\n4. **Machine learning and modeling:** Explore machine learning concepts, such as supervised and unsupervised learning, and learn to apply them using libraries like scikit-learn or TensorFlow.\n\n**Take online courses and certifications:**\n\n1. **Coursera's Data Science Specialization:** A comprehensive program covering data science fundamentals, including statistics, machine learning, and data visualization.\n2. **edX's Data Analysis and Visualization:** A course series focusing on data analysis, visualization, and communication.\n3. **Google Data Analytics Certification:** A professional certification program covering data analysis, visualization, and machine learning.\n4. **Data Science Council of America (DASCA) certifications:** A range of certifications covering data science, analytics, and related fields.\n\n**Network and build your portfolio:**\n\n1. **Attend industry events:** Attend conferences, meetups, and webinars to learn from industry experts and network with professionals in data analytics.\n2. **Join online communities:** Participate in online forums like Kaggle, Reddit's r/dataanalysis, or Data Science subreddit to connect with peers and learn from their experiences.\n3. **Build a portfolio:** Create a portfolio showcasing your data analytics projects, including data visualization, machine learning, and insights. This will help demonstrate your skills to potential employers.\n\n**Consider an internship or volunteer work:**\n\n1. **Internship:** Apply for internships in data analytics to gain hands-on experience and build your network.\n2. **Volunteer work:** Offer your data analytics skills to non-profit organizations or friends' businesses to build your portfolio and gain experience.\n\nRemember, transitioning to a new field takes time, dedication, and hard work. Focus on building your technical skills, leveraging your marketing experience, and networking with professionals in the field. You got this!\n\nWhat's your current level of experience with data analysis, and which specific areas of data analytics interest you the most?",
+        "reply_length": 3664,
+        "quality_score": 90,
+        "relevance": "high",
+        "completeness": "complete"
+      }
+    },
+    {
+      "step": 4,
+      "action": "Send message 4: 'What certifications should I get for clo...'",
+      "expected": "Receive relevant career guidance response",
+      "actual": "Received reply (2962 chars): Cloud computing is a rapidly growing field, and having the r...",
+      "status": "PASS",
+      "timestamp": "2025-10-27T18:18:16.649190",
+      "duration_ms": 3572,
+      "error": null,
+      "metadata": {
+        "message": "What certifications should I get for cloud computing?",
+        "reply": "Cloud computing is a rapidly growing field, and having the right certifications can definitely give you an edge in the job market. Here are some of the most in-demand cloud computing certifications:\n\n**Amazon Web Services (AWS) Certifications:**\n\n1. **AWS Certified Cloud Practitioner:** A foundational certification covering cloud concepts, security, and architecture.\n2. **AWS Certified Developer - Associate:** A certification focusing on developing cloud-based applications using AWS services.\n3. **AWS Certified Solutions Architect - Associate:** A certification covering designing and deploying scalable, secure, and efficient cloud architectures.\n\n**Microsoft Azure Certifications:**\n\n1. **Microsoft Certified: Azure Developer Associate:** A certification focusing on developing cloud-based applications using Azure services.\n2. **Microsoft Certified: Azure Solutions Architect Expert:** A certification covering designing and deploying scalable, secure, and efficient cloud architectures.\n3. **Microsoft Certified: Azure Administrator Associate:** A certification focusing on managing and maintaining Azure services.\n\n**Google Cloud Certifications:**\n\n1. **Google Cloud Certified - Professional Cloud Developer:** A certification focusing on developing cloud-based applications using Google Cloud services.\n2. **Google Cloud Certified - Professional Cloud Architect:** A certification covering designing and deploying scalable, secure, and efficient cloud architectures.\n3. **Google Cloud Certified - Professional Cloud Engineer:** A certification focusing on designing, building, and managing cloud-based systems.\n\n**Other Certifications:**\n\n1. **CompTIA Cloud+:** A vendor-neutral certification covering cloud concepts, security, and architecture.\n2. **VMware VCP-Cloud:** A certification focusing on managing and maintaining cloud-based virtualization environments.\n3. **OpenStack Certification:** A certification covering designing, deploying, and managing OpenStack-based cloud environments.\n\n**Tips for Choosing the Right Certification:**\n\n1. **Align with your career goals:** Choose a certification that aligns with your career goals and job requirements.\n2. **Consider the cloud provider:** If you're already working with a specific cloud provider (e.g., AWS, Azure, Google Cloud), consider getting certified in that provider's ecosystem.\n3. **Check the certification requirements:** Review the certification requirements, including prerequisites, exam format, and cost.\n4. **Prepare with study materials:** Use official study materials, online courses, and practice exams to prepare for the certification exam.\n\nRemember, certifications are just one aspect of your cloud computing journey. Make sure to also gain hands-on experience, stay up-to-date with industry trends, and network with professionals in the field.\n\nWhat's your current level of experience with cloud computing, and which cloud provider are you most interested in working with?",
+        "reply_length": 2962,
+        "quality_score": 90,
+        "relevance": "high",
+        "completeness": "complete"
+      }
+    },
+    {
+      "step": 5,
+      "action": "Send message 5: 'Tell me about career opportunities in AI...'",
+      "expected": "Receive relevant career guidance response",
+      "actual": "Received reply (3371 chars): Artificial Intelligence (AI) is a rapidly growing field with...",
+      "status": "PASS",
+      "timestamp": "2025-10-27T18:18:20.222096",
+      "duration_ms": 3863,
+      "error": null,
+      "metadata": {
+        "message": "Tell me about career opportunities in AI",
+        "reply": "Artificial Intelligence (AI) is a rapidly growing field with numerous career opportunities across various industries. As AI continues to transform the way we live and work, the demand for skilled professionals in this field is skyrocketing. Here are some exciting career opportunities in AI:\n\n**Core AI Careers:**\n\n1. **Machine Learning Engineer:** Design and develop intelligent systems that can learn from data and improve over time.\n2. **Data Scientist:** Extract insights from large datasets and develop predictive models to drive business decisions.\n3. **AI Researcher:** Explore new AI techniques, algorithms, and applications to advance the field.\n4. **Natural Language Processing (NLP) Specialist:** Develop intelligent systems that can understand and generate human language.\n5. **Computer Vision Engineer:** Design and develop systems that can interpret and understand visual data from images and videos.\n\n**AI-Related Careers:**\n\n1. **Business Intelligence Analyst:** Use AI and data analytics to inform business decisions and drive growth.\n2. **Data Analyst:** Work with data to identify trends, patterns, and insights that can inform business decisions.\n3. **Software Engineer:** Develop software applications that integrate AI and machine learning capabilities.\n4. **UX Designer:** Design user experiences that incorporate AI-powered interfaces and systems.\n5. **Product Manager:** Oversee the development and launch of AI-powered products and services.\n\n**Industry-Specific AI Careers:**\n\n1. **Healthcare:** AI is being used to develop personalized medicine, medical imaging analysis, and clinical decision support systems.\n2. **Finance:** AI is being used to detect fraud, predict stock prices, and optimize investment portfolios.\n3. **Transportation:** AI is being used to develop autonomous vehicles, optimize traffic flow, and improve logistics management.\n4. **Education:** AI is being used to develop personalized learning systems, intelligent tutoring systems, and adaptive assessments.\n5. **Cybersecurity:** AI is being used to detect and respond to cyber threats, predict vulnerabilities, and develop secure systems.\n\n**Skills and Qualifications:**\n\n1. **Programming skills:** Proficiency in languages like Python, Java, C++, and R.\n2. **Data science skills:** Knowledge of machine learning, deep learning, and data visualization.\n3. **Mathematics and statistics:** Understanding of linear algebra, calculus, probability, and statistics.\n4. **Domain expertise:** Knowledge of a specific industry or domain, such as healthcare or finance.\n5. **Communication skills:** Ability to communicate complex technical concepts to non-technical stakeholders.\n\n**Tips for Breaking into AI:**\n\n1. **Start with the basics:** Learn the fundamentals of programming, data science, and machine learning.\n2. **Explore AI applications:** Investigate AI applications in various industries and domains.\n3. **Develop a personal project:** Work on a personal project that integrates AI and machine learning.\n4. **Network with professionals:** Attend AI conferences, meetups, and join online communities to connect with professionals in the field.\n5. **Stay up-to-date:** Continuously update your skills and knowledge to stay current with the latest AI trends and technologies.\n\nWhat's your current level of experience with AI, and which area of AI interests you the most?",
+        "reply_length": 3371,
+        "quality_score": 90,
+        "relevance": "high",
+        "completeness": "complete"
+      }
+    }
+  ],
+  "ai_analysis": {
+    "all_messages_processed": true,
+    "avg_quality_score": 90.0,
+    "response_time_acceptable": true,
+    "conversation_coherent": true,
+    "career_focused": true,
+    "response_completeness": 100.0
+  },
+  "issues": [],
+  "recommendations": [
+    "Consider optimizing response time (currently averaging > 3 seconds)"
+  ],
+  "metadata": {
+    "api_calls": 5,
+    "tokens_used": 0,
+    "errors_count": 0,
+    "warnings_count": 0
+  }
+}

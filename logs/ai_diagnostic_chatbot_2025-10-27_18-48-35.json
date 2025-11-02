@@ -1,0 +1,128 @@
+{
+  "test_id": "chatbot_2025-10-27_18-48-35",
+  "timestamp": "2025-10-27T18:48:35.172705",
+  "test_name": "Career Chatbot AI Test",
+  "test_type": "chatbot",
+  "status": "PASS",
+  "score": 100.0,
+  "duration_seconds": 40.29,
+  "summary": {
+    "total_messages": 5,
+    "messages_sent": 5,
+    "responses_received": 5,
+    "avg_response_time_ms": 3017,
+    "conversation_length": 10,
+    "errors": 0,
+    "warnings": 0
+  },
+  "test_steps": [
+    {
+      "step": 1,
+      "action": "Send message 1: 'Hello, I need career advice...'",
+      "expected": "Receive relevant career guidance response",
+      "actual": "Received reply (488 chars): Hello and welcome. I'm so glad you reached out for career ad...",
+      "status": "PASS",
+      "timestamp": "2025-10-27T18:49:00.372184",
+      "duration_ms": 2530,
+      "error": null,
+      "metadata": {
+        "message": "Hello, I need career advice",
+        "reply": "Hello and welcome. I'm so glad you reached out for career advice. I'm here to listen, offer guidance, and support you in any way I can. Before we begin, could you tell me a bit more about what's on your mind? Are you looking to change careers, advance in your current field, or perhaps just starting out and unsure which path to take? Sharing your thoughts and concerns will help me provide you with more tailored advice and support. What's been on your mind lately regarding your career?",
+        "reply_length": 488,
+        "quality_score": 100,
+        "relevance": "high",
+        "completeness": "complete"
+      }
+    },
+    {
+      "step": 2,
+      "action": "Send message 2: 'What skills are most important for data ...'",
+      "expected": "Receive relevant career guidance response",
+      "actual": "Received reply (1534 chars): Data science is a fascinating and in-demand field. To succee...",
+      "status": "PASS",
+      "timestamp": "2025-10-27T18:49:02.902498",
+      "duration_ms": 3131,
+      "error": null,
+      "metadata": {
+        "message": "What skills are most important for data science?",
+        "reply": "Data science is a fascinating and in-demand field. To succeed in data science, you'll want to develop a combination of technical, business, and soft skills. Some of the most important skills for data science include:\n\nProgramming skills in languages like Python, R, or SQL, as well as experience with data manipulation and analysis libraries like Pandas, NumPy, and Matplotlib. Additionally, knowledge of machine learning algorithms and frameworks like scikit-learn, TensorFlow, or PyTorch is highly valued. Data visualization skills, using tools like Tableau, Power BI, or D3.js, are also essential for communicating insights effectively.\n\nOther key skills include data wrangling, statistical modeling, and data mining. It's also important to have a strong understanding of data structures, databases, and big data technologies like Hadoop or Spark. On the business side, data scientists need to be able to understand business problems, identify opportunities, and communicate complex technical concepts to non-technical stakeholders.\n\nIf you're looking to develop your skills in data science, I would recommend starting with online courses or certifications in Python, machine learning, or data visualization. Some popular resources include Coursera, edX, and DataCamp. You could also explore Kaggle, a platform for data science competitions and hosting datasets, to practice your skills and learn from others. What's your current level of experience with data science, and where would you like to focus your skill-building efforts?",
+        "reply_length": 1534,
+        "quality_score": 90,
+        "relevance": "high",
+        "completeness": "complete"
+      }
+    },
+    {
+      "step": 3,
+      "action": "Send message 3: 'How can I transition from marketing to d...'",
+      "expected": "Receive relevant career guidance response",
+      "actual": "Received reply (1730 chars): Transitioning from marketing to data analytics can be a grea...",
+      "status": "PASS",
+      "timestamp": "2025-10-27T18:49:06.033566",
+      "duration_ms": 3191,
+      "error": null,
+      "metadata": {
+        "message": "How can I transition from marketing to data analytics?",
+        "reply": "Transitioning from marketing to data analytics can be a great career move, as both fields involve understanding customer behavior and driving business decisions. To make this transition, you'll want to leverage your existing marketing skills, such as data interpretation, problem-solving, and communication, and build on them with new technical skills.\n\nOne way to start is by taking online courses or attending workshops that focus on data analysis, statistics, and data visualization. You can explore platforms like Coursera, edX, or DataCamp, which offer a wide range of courses on data analytics. Additionally, you can learn programming languages like Python or R, and familiarize yourself with tools like Excel, SQL, or Tableau. It's also essential to learn about data structures, databases, and big data technologies.\n\nYour marketing background can be a significant asset in data analytics, as you already understand the importance of data-driven decision-making and have experience working with stakeholders to drive business outcomes. To showcase your skills to potential employers, consider building a portfolio that highlights your data analysis projects, such as analyzing customer behavior, optimizing marketing campaigns, or creating data visualizations. You can also network with professionals in the data analytics field, attend industry events, or join online communities like Kaggle or Reddit's r/dataanalytics to learn more about the field and make connections.\n\nWhat specific aspects of data analytics interest you the most, and what's your current level of experience with data analysis tools and techniques? This will help me provide more tailored guidance on your transition from marketing to data analytics.",
+        "reply_length": 1730,
+        "quality_score": 90,
+        "relevance": "high",
+        "completeness": "complete"
+      }
+    },
+    {
+      "step": 4,
+      "action": "Send message 4: 'What certifications should I get for clo...'",
+      "expected": "Receive relevant career guidance response",
+      "actual": "Received reply (1725 chars): Pursuing certifications in cloud computing can be a great wa...",
+      "status": "PASS",
+      "timestamp": "2025-10-27T18:49:09.224764",
+      "duration_ms": 3144,
+      "error": null,
+      "metadata": {
+        "message": "What certifications should I get for cloud computing?",
+        "reply": "Pursuing certifications in cloud computing can be a great way to demonstrate your expertise and enhance your career prospects. The most in-demand certifications vary depending on the cloud provider, job role, and industry. Here are some popular certifications across the major cloud providers:\n\nFor Amazon Web Services (AWS), consider the AWS Certified Cloud Practitioner or the AWS Certified Solutions Architect - Associate. For Microsoft Azure, look into the Microsoft Certified: Azure Administrator Associate or the Microsoft Certified: Azure Solutions Architect Expert. Google Cloud Platform (GCP) offers the Google Cloud Certified - Professional Cloud Developer or the Google Cloud Certified - Professional Cloud Architect.\n\nIf you're interested in a more vendor-neutral certification, you might consider the Certified Cloud Professional (CCP) or the Certified Cloud Architect (CCA) offered by the Cloud Credential Council (CCC). These certifications cover cloud computing principles, architecture, and security, and are not specific to any one cloud provider.\n\nWhen choosing a certification, consider your current experience, job goals, and the cloud provider you're most interested in working with. It's also essential to check the certification requirements, study materials, and exam format to ensure you're well-prepared. Many cloud providers offer free or low-cost training resources, such as online courses, tutorials, and study guides, to help you prepare for the certification exams.\n\nWhat's your current level of experience with cloud computing, and which cloud provider are you most interested in working with? This will help me provide more tailored guidance on the best certifications for your career goals.",
+        "reply_length": 1725,
+        "quality_score": 90,
+        "relevance": "high",
+        "completeness": "complete"
+      }
+    },
+    {
+      "step": 5,
+      "action": "Send message 5: 'Tell me about career opportunities in AI...'",
+      "expected": "Receive relevant career guidance response",
+      "actual": "Received reply (1875 chars): The field of Artificial Intelligence (AI) is rapidly growing...",
+      "status": "PASS",
+      "timestamp": "2025-10-27T18:49:12.369026",
+      "duration_ms": 3093,
+      "error": null,
+      "metadata": {
+        "message": "Tell me about career opportunities in AI",
+        "reply": "The field of Artificial Intelligence (AI) is rapidly growing and offers a wide range of exciting career opportunities. As AI continues to transform industries and revolutionize the way we live and work, the demand for professionals with expertise in AI is skyrocketing. Some of the most in-demand careers in AI include:\n\nMachine Learning Engineer, Natural Language Processing (NLP) Specialist, Computer Vision Engineer, Data Scientist, and AI Researcher. These roles involve developing and implementing AI models, algorithms, and systems that can learn, reason, and interact with humans.\n\nOther emerging careers in AI include AI Ethicist, AI Trainer, and Conversational AI Designer. These roles focus on ensuring that AI systems are fair, transparent, and aligned with human values, as well as designing and developing AI-powered interfaces that can interact with humans in a more natural and intuitive way.\n\nTo pursue a career in AI, you'll typically need a strong foundation in computer science, mathematics, and programming, as well as expertise in areas like machine learning, deep learning, and data science. Many universities and online platforms offer courses, certifications, and degree programs in AI and related fields.\n\nIf you're interested in exploring career opportunities in AI, I recommend checking out job boards like Indeed, LinkedIn, or Glassdoor, which often feature AI-related job postings. You can also network with professionals in the field through online communities like Kaggle, Reddit's r/MachineLearning, or attend AI conferences and meetups to learn more about the latest developments and trends in the field.\n\nWhat specific aspects of AI interest you the most, and what's your current level of experience with AI and related technologies? This will help me provide more tailored guidance on career opportunities and next steps in the field of AI.",
+        "reply_length": 1875,
+        "quality_score": 90,
+        "relevance": "high",
+        "completeness": "complete"
+      }
+    }
+  ],
+  "ai_analysis": {
+    "all_messages_processed": true,
+    "avg_quality_score": 92.0,
+    "response_time_acceptable": true,
+    "conversation_coherent": true,
+    "career_focused": true,
+    "response_completeness": 100.0
+  },
+  "issues": [],
+  "recommendations": [
+    "Consider optimizing response time (currently averaging > 3 seconds)"
+  ],
+  "metadata": {
+    "api_calls": 5,
+    "tokens_used": 0,
+    "errors_count": 0,
+    "warnings_count": 0
+  }
+}

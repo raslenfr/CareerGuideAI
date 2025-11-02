@@ -1,0 +1,20 @@
+Flask>=2.0
+groq>=0.22.0
+python-dotenv>=0.15
+requests>=2.25
+Flask-CORS>=3.0.10
+Flask-SQLAlchemy>=3.0.0
+Flask-Bcrypt>=1.0.1
+
+# NEW: JWT Authentication
+python-jose[cryptography]>=3.3.0
+python-multipart>=0.0.5
+
+# NEW: Email System
+email-validator>=2.0.0
+
+# NEW: ML Fraud Detection
+scikit-learn>=1.0.0
+imbalanced-learn>=0.10.0
+joblib>=1.0.0
+pandas>=1.3.0

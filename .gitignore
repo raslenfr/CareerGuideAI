@@ -1,0 +1,17 @@
+# Environment variables
+.env
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific folders
+.idea/
+.vscode/

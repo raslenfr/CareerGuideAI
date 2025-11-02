@@ -1,0 +1,421 @@
+{
+  "test_id": "course_recommender_2025-10-27_16-49-37",
+  "timestamp": "2025-10-27T16:49:37.334757",
+  "test_name": "Course Recommender AI Test",
+  "test_type": "course_recommender",
+  "status": "WARNING",
+  "score": 51.67,
+  "duration_seconds": 57.62,
+  "summary": {
+    "total_scenarios": 3,
+    "scenarios_passed": 3,
+    "total_courses_found": 9,
+    "avg_response_time_ms": 2453,
+    "errors": 0,
+    "warnings": 3
+  },
+  "test_steps": [
+    {
+      "step": 1,
+      "action": "Scenario 1: Start recommendation for 'Python programming'",
+      "expected": "Receive request ID and first survey question",
+      "actual": "Received request_id: 04ac7788-7d77-4c8f-b...",
+      "status": "PASS",
+      "timestamp": "2025-10-27T16:50:20.236105",
+      "duration_ms": 2005,
+      "error": null,
+      "metadata": {
+        "request_id": "04ac7788-7d77-4c8f-badb-bd98e82f1ca7"
+      }
+    },
+    {
+      "step": 3,
+      "action": "Scenario 1: Validate course recommendations",
+      "expected": "Courses relevant to search keywords",
+      "actual": "Issues found: Course 1: Missing provider, Course 1: Missing URL, Course 2: Missing provider, Course 2: Missing URL, Course 3: Missing provider, Course 3: Missing URL, Course 4: Missing provider, Course 4: Missing URL",
+      "status": "WARNING",
+      "timestamp": "2025-10-27T16:50:25.421157",
+      "duration_ms": 0,
+      "error": null,
+      "metadata": {}
+    },
+    {
+      "step": 2,
+      "action": "Scenario 1: Submit survey answers",
+      "expected": "Receive course recommendations",
+      "actual": "Received 4 course recommendations",
+      "status": "PASS",
+      "timestamp": "2025-10-27T16:50:22.241270",
+      "duration_ms": 3179,
+      "error": null,
+      "metadata": {
+        "courses": [
+          {
+            "company": "Startup Launchpad",
+            "description": "Entry-level role involving both frontend (React/Vue) and backend (Node.js/Python) development for various web projects. Great learning opportunity.",
+            "id": "j8",
+            "location": "Pune",
+            "match_score": 0.8,
+            "reason": "The job is a junior role, which might be more suitable for the user's intermediate experience level. The time commitment of 5-10 hours/week could be sufficient for this role, and the video learning style could be helpful in learning new skills like React, Vue, and Node.js. However, the job requires eagerness to learn, which is not explicitly mentioned in the user's survey answers.",
+            "skills": "JavaScript, React/Vue, Node.js/Python, HTML, CSS, Git, Eagerness to learn",
+            "source_url": "https://static-job-portal.dev/job/j8",
+            "tags": [
+              "Full Stack",
+              "Junior",
+              "Web Development",
+              "Startup"
+            ],
+            "title": "Junior Full Stack Developer"
+          },
+          {
+            "company": "HealthAnalytics AI",
+            "description": "Apply statistical analysis and machine learning techniques (NLP focus) to healthcare data. Build and deploy models using Python and relevant libraries.",
+            "id": "j3",
+            "location": "Bangalore",
+            "match_score": 0.7,
+            "reason": "The job requires skills in Python, which is not explicitly mentioned in the user's survey answers. However, the user's intermediate experience level and time commitment of 5-10 hours/week could be suitable for this role, and video learning style could be helpful in learning new skills like NLP and ML.",
+            "skills": "Python, Pandas, Scikit-learn, TensorFlow/PyTorch, SQL, NLP, ML",
+            "source_url": "https://static-job-portal.dev/job/j3",
+            "tags": [
+              "Data Science",
+              "ML",
+              "AI",
+              "Healthcare",
+              "Python"
+            ],
+            "title": "Data Scientist - ML"
+          },
+          {
+            "company": "Fintech Innovations Pvt. Ltd.",
+            "description": "Develop and maintain scalable backend services using Python, Django, and REST APIs for our financial platform. Requires database knowledge (PostgreSQL).",
+            "id": "j1",
+            "location": "Pune",
+            "match_score": 0.6,
+            "reason": "The job requires experienced candidates, but the user has intermediate experience level. However, the job skills are not explicitly mentioned in the user's survey answers, but the time commitment of 5-10 hours/week might not be sufficient for this role.",
+            "skills": "Python, Django, REST, SQL, PostgreSQL, Git",
+            "source_url": "https://static-job-portal.dev/job/j1",
+            "tags": [
+              "Fintech",
+              "Backend",
+              "Experienced"
+            ],
+            "title": "Python Backend Developer"
+          },
+          {
+            "company": "Retail Cloud Solutions",
+            "description": "Design, implement, and manage secure, scalable AWS cloud infrastructure using Terraform and CI/CD pipelines. Monitor performance and costs.",
+            "id": "j4",
+            "location": "Pune (Remote)",
+            "match_score": 0.4,
+            "reason": "The job requires specific skills in AWS, Terraform, and cloud infrastructure, which are not mentioned in the user's survey answers. The user's intermediate experience level and time commitment of 5-10 hours/week might not be sufficient for this role, and the learning style might not be directly applicable to this job.",
+            "skills": "AWS, Terraform, Docker, Kubernetes, CI/CD, Jenkins, Linux, Python (scripting)",
+            "source_url": "https://static-job-portal.dev/job/j4",
+            "tags": [
+              "Cloud",
+              "AWS",
+              "DevOps",
+              "Remote",
+              "Infrastructure"
+            ],
+            "title": "Cloud Infrastructure Engineer (AWS)"
+          }
+        ],
+        "keywords": "Python programming"
+      }
+    },
+    {
+      "step": 4,
+      "action": "Scenario 2: Start recommendation for 'Data science machine learning'",
+      "expected": "Receive request ID and first survey question",
+      "actual": "Received request_id: 21e5f5ac-a414-45af-b...",
+      "status": "PASS",
+      "timestamp": "2025-10-27T16:50:25.421157",
+      "duration_ms": 2005,
+      "error": null,
+      "metadata": {
+        "request_id": "21e5f5ac-a414-45af-b98d-811a2461ac62"
+      }
+    },
+    {
+      "step": 6,
+      "action": "Scenario 2: Validate course recommendations",
+      "expected": "Courses relevant to search keywords",
+      "actual": "Issues found: Course 1: Missing provider, Course 1: Missing URL, Course 2: Missing provider, Course 2: Missing URL, Course 3: Missing provider, Course 3: Missing URL",
+      "status": "WARNING",
+      "timestamp": "2025-10-27T16:50:30.239884",
+      "duration_ms": 0,
+      "error": null,
+      "metadata": {}
+    },
+    {
+      "step": 5,
+      "action": "Scenario 2: Submit survey answers",
+      "expected": "Receive course recommendations",
+      "actual": "Received 3 course recommendations",
+      "status": "PASS",
+      "timestamp": "2025-10-27T16:50:27.427144",
+      "duration_ms": 2812,
+      "error": null,
+      "metadata": {
+        "courses": [
+          {
+            "company": "Startup Launchpad",
+            "description": "Entry-level role involving both frontend (React/Vue) and backend (Node.js/Python) development for various web projects. Great learning opportunity.",
+            "id": "j8",
+            "location": "Pune",
+            "match_score": 0.8,
+            "reason": "The job is junior-level and offers a great learning opportunity, which aligns with the user's intermediate experience level and video-based learning style. The time commitment of 5-10 hours/week seems feasible for this role.",
+            "skills": "JavaScript, React/Vue, Node.js/Python, HTML, CSS, Git, Eagerness to learn",
+            "source_url": "https://static-job-portal.dev/job/j8",
+            "tags": [
+              "Full Stack",
+              "Junior",
+              "Web Development",
+              "Startup"
+            ],
+            "title": "Junior Full Stack Developer"
+          },
+          {
+            "company": "HealthAnalytics AI",
+            "description": "Apply statistical analysis and machine learning techniques (NLP focus) to healthcare data. Build and deploy models using Python and relevant libraries.",
+            "id": "j3",
+            "location": "Bangalore",
+            "match_score": 0.7,
+            "reason": "The job requires advanced skills, but the user's intermediate experience level and ability to learn via video could be sufficient. The time commitment is not explicitly mentioned, but it might be feasible with 5-10 hours/week.",
+            "skills": "Python, Pandas, Scikit-learn, TensorFlow/PyTorch, SQL, NLP, ML",
+            "source_url": "https://static-job-portal.dev/job/j3",
+            "tags": [
+              "Data Science",
+              "ML",
+              "AI",
+              "Healthcare",
+              "Python"
+            ],
+            "title": "Data Scientist - ML"
+          },
+          {
+            "company": "Fintech Innovations Pvt. Ltd.",
+            "description": "Develop and maintain scalable backend services using Python, Django, and REST APIs for our financial platform. Requires database knowledge (PostgreSQL).",
+            "id": "j1",
+            "location": "Pune",
+            "match_score": 0.6,
+            "reason": "The job requires experienced candidates, but the user has intermediate experience level. However, the job's required skills and the user's learning style via video could still be a good match.",
+            "skills": "Python, Django, REST, SQL, PostgreSQL, Git",
+            "source_url": "https://static-job-portal.dev/job/j1",
+            "tags": [
+              "Fintech",
+              "Backend",
+              "Experienced"
+            ],
+            "title": "Python Backend Developer"
+          }
+        ],
+        "keywords": "Data science machine learning"
+      }
+    },
+    {
+      "step": 7,
+      "action": "Scenario 3: Start recommendation for 'Web development React'",
+      "expected": "Receive request ID and first survey question",
+      "actual": "Received request_id: 1b3d8b9b-575b-4ccb-a...",
+      "status": "PASS",
+      "timestamp": "2025-10-27T16:50:30.239884",
+      "duration_ms": 2005,
+      "error": null,
+      "metadata": {
+        "request_id": "1b3d8b9b-575b-4ccb-a5ad-3a9ec58daa57"
+      }
+    },
+    {
+      "step": 9,
+      "action": "Scenario 3: Validate course recommendations",
+      "expected": "Courses relevant to search keywords",
+      "actual": "Issues found: Only 2 courses recommended (expected at least 3), Course 1: Missing provider, Course 1: Missing URL, Course 2: Missing provider, Course 2: Missing URL",
+      "status": "WARNING",
+      "timestamp": "2025-10-27T16:50:34.957862",
+      "duration_ms": 0,
+      "error": null,
+      "metadata": {}
+    },
+    {
+      "step": 8,
+      "action": "Scenario 3: Submit survey answers",
+      "expected": "Receive course recommendations",
+      "actual": "Received 2 course recommendations",
+      "status": "PASS",
+      "timestamp": "2025-10-27T16:50:32.245494",
+      "duration_ms": 2712,
+      "error": null,
+      "metadata": {
+        "courses": [
+          {
+            "company": "Startup Launchpad",
+            "description": "Entry-level role involving both frontend (React/Vue) and backend (Node.js/Python) development for various web projects. Great learning opportunity.",
+            "id": "j8",
+            "location": "Pune",
+            "match_score": 0.8,
+            "reason": "The job is a junior full stack developer role, which might be a good fit for someone with intermediate experience level looking to expand their skill set, and the job description mentions a great learning opportunity, which aligns with the user's preference for learning.",
+            "skills": "JavaScript, React/Vue, Node.js/Python, HTML, CSS, Git, Eagerness to learn",
+            "source_url": "https://static-job-portal.dev/job/j8",
+            "tags": [
+              "Full Stack",
+              "Junior",
+              "Web Development",
+              "Startup"
+            ],
+            "title": "Junior Full Stack Developer"
+          },
+          {
+            "company": "MediaStream Co.",
+            "description": "Build modern, responsive user interfaces for our streaming service using React, Redux, and TypeScript. Collaborate with UI/UX designers.",
+            "id": "j2",
+            "location": "Mumbai (Hybrid)",
+            "match_score": 0.6,
+            "reason": "The job requires intermediate to advanced skills in React, Redux, and TypeScript, which may not perfectly match the user's intermediate experience level, but the job's focus on frontend development could be a good fit if the user has relevant skills.",
+            "skills": "React, Redux, JavaScript, TypeScript, HTML5, CSS3, Git",
+            "source_url": "https://static-job-portal.dev/job/j2",
+            "tags": [
+              "Frontend",
+              "Media",
+              "UI",
+              "Hybrid"
+            ],
+            "title": "React Frontend Developer"
+          }
+        ],
+        "keywords": "Web development React"
+      }
+    }
+  ],
+  "ai_analysis": {
+    "all_scenarios_completed": true,
+    "sufficient_recommendations": true,
+    "response_time_acceptable": true,
+    "success_rate": 100.0
+  },
+  "issues": [
+    {
+      "severity": "WARNING",
+      "description": "Scenario 1: Course validation",
+      "details": "Course 1: Missing provider",
+      "timestamp": "2025-10-27T16:50:25.421157"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 1: Course validation",
+      "details": "Course 1: Missing URL",
+      "timestamp": "2025-10-27T16:50:25.421157"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 1: Course validation",
+      "details": "Course 2: Missing provider",
+      "timestamp": "2025-10-27T16:50:25.421157"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 1: Course validation",
+      "details": "Course 2: Missing URL",
+      "timestamp": "2025-10-27T16:50:25.421157"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 1: Course validation",
+      "details": "Course 3: Missing provider",
+      "timestamp": "2025-10-27T16:50:25.421157"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 1: Course validation",
+      "details": "Course 3: Missing URL",
+      "timestamp": "2025-10-27T16:50:25.421157"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 1: Course validation",
+      "details": "Course 4: Missing provider",
+      "timestamp": "2025-10-27T16:50:25.421157"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 1: Course validation",
+      "details": "Course 4: Missing URL",
+      "timestamp": "2025-10-27T16:50:25.421157"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 2: Course validation",
+      "details": "Course 1: Missing provider",
+      "timestamp": "2025-10-27T16:50:30.239884"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 2: Course validation",
+      "details": "Course 1: Missing URL",
+      "timestamp": "2025-10-27T16:50:30.239884"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 2: Course validation",
+      "details": "Course 2: Missing provider",
+      "timestamp": "2025-10-27T16:50:30.239884"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 2: Course validation",
+      "details": "Course 2: Missing URL",
+      "timestamp": "2025-10-27T16:50:30.239884"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 2: Course validation",
+      "details": "Course 3: Missing provider",
+      "timestamp": "2025-10-27T16:50:30.239884"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 2: Course validation",
+      "details": "Course 3: Missing URL",
+      "timestamp": "2025-10-27T16:50:30.239884"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 3: Course validation",
+      "details": "Only 2 courses recommended (expected at least 3)",
+      "timestamp": "2025-10-27T16:50:34.957862"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 3: Course validation",
+      "details": "Course 1: Missing provider",
+      "timestamp": "2025-10-27T16:50:34.957862"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 3: Course validation",
+      "details": "Course 1: Missing URL",
+      "timestamp": "2025-10-27T16:50:34.957862"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 3: Course validation",
+      "details": "Course 2: Missing provider",
+      "timestamp": "2025-10-27T16:50:34.957862"
+    },
+    {
+      "severity": "WARNING",
+      "description": "Scenario 3: Course validation",
+      "details": "Course 2: Missing URL",
+      "timestamp": "2025-10-27T16:50:34.957862"
+    }
+  ],
+  "recommendations": [
+    "Optimize course search and recommendation algorithm"
+  ],
+  "metadata": {
+    "api_calls": 6,
+    "tokens_used": 0,
+    "errors_count": 0,
+    "warnings_count": 3
+  }
+}

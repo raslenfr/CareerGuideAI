@@ -1,0 +1,57 @@
+{
+  "test_id": "frontend_recording_40d5aa22",
+  "session_id": "40d5aa22-5f26-432e-96c7-11cfd07ff082",
+  "timestamp": "2025-10-27T22:19:14.504016",
+  "test_name": "Frontend AI Test Recording",
+  "test_type": "frontend_integrated",
+  "status": "WARNING",
+  "overall_score": 50.0,
+  "duration_seconds": 32.49,
+  "summary": {
+    "started_at": "2025-10-27T22:18:42.016379",
+    "stopped_at": "2025-10-27T22:19:14.504016",
+    "total_interactions": 3,
+    "ai_types_tested": [
+      "career_suggester"
+    ],
+    "user_id": 3
+  },
+  "ai_reports": {
+    "career_suggester": {
+      "ai_type": "career_suggester",
+      "score": 50.0,
+      "total_interactions": 3,
+      "avg_response_time_ms": 11.0,
+      "quality_scores": [
+        50,
+        50,
+        50
+      ],
+      "issues": [
+        {
+          "severity": "WARNING",
+          "description": "career_suggester interaction 1: Low quality score",
+          "details": "Score: 50/100",
+          "timestamp": "2025-10-27T22:18:48.898660"
+        },
+        {
+          "severity": "WARNING",
+          "description": "career_suggester interaction 2: Low quality score",
+          "details": "Score: 50/100",
+          "timestamp": "2025-10-27T22:18:56.559704"
+        },
+        {
+          "severity": "WARNING",
+          "description": "career_suggester interaction 3: Low quality score",
+          "details": "Score: 50/100",
+          "timestamp": "2025-10-27T22:19:12.467765"
+        }
+      ],
+      "status": "WARNING"
+    }
+  },
+  "metadata": {
+    "test_mode": "frontend_recording",
+    "manual_control": true
+  }
+}

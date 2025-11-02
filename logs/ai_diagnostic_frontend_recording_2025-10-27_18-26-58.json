@@ -1,0 +1,107 @@
+{
+  "test_id": "frontend_recording_b600476e",
+  "session_id": "b600476e-a1e4-4602-9801-ce7fb832c7ab",
+  "timestamp": "2025-10-27T18:26:58.408579",
+  "test_name": "Frontend AI Test Recording",
+  "test_type": "frontend_integrated",
+  "status": "WARNING",
+  "overall_score": 52.73,
+  "duration_seconds": 93.22,
+  "summary": {
+    "started_at": "2025-10-27T18:25:25.192507",
+    "stopped_at": "2025-10-27T18:26:58.408579",
+    "total_interactions": 11,
+    "ai_types_tested": [
+      "career_suggester"
+    ],
+    "user_id": 2
+  },
+  "ai_reports": {
+    "career_suggester": {
+      "ai_type": "career_suggester",
+      "score": 52.73,
+      "total_interactions": 11,
+      "avg_response_time_ms": 130.45,
+      "quality_scores": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        80
+      ],
+      "issues": [
+        {
+          "severity": "WARNING",
+          "description": "career_suggester interaction 1: Low quality score",
+          "details": "Score: 50/100",
+          "timestamp": "2025-10-27T18:25:35.566755"
+        },
+        {
+          "severity": "WARNING",
+          "description": "career_suggester interaction 2: Low quality score",
+          "details": "Score: 50/100",
+          "timestamp": "2025-10-27T18:25:46.313129"
+        },
+        {
+          "severity": "WARNING",
+          "description": "career_suggester interaction 3: Low quality score",
+          "details": "Score: 50/100",
+          "timestamp": "2025-10-27T18:25:53.478797"
+        },
+        {
+          "severity": "WARNING",
+          "description": "career_suggester interaction 4: Low quality score",
+          "details": "Score: 50/100",
+          "timestamp": "2025-10-27T18:26:00.719648"
+        },
+        {
+          "severity": "WARNING",
+          "description": "career_suggester interaction 5: Low quality score",
+          "details": "Score: 50/100",
+          "timestamp": "2025-10-27T18:26:06.950234"
+        },
+        {
+          "severity": "WARNING",
+          "description": "career_suggester interaction 6: Low quality score",
+          "details": "Score: 50/100",
+          "timestamp": "2025-10-27T18:26:14.653649"
+        },
+        {
+          "severity": "WARNING",
+          "description": "career_suggester interaction 7: Low quality score",
+          "details": "Score: 50/100",
+          "timestamp": "2025-10-27T18:26:21.762691"
+        },
+        {
+          "severity": "WARNING",
+          "description": "career_suggester interaction 8: Low quality score",
+          "details": "Score: 50/100",
+          "timestamp": "2025-10-27T18:26:29.686742"
+        },
+        {
+          "severity": "WARNING",
+          "description": "career_suggester interaction 9: Low quality score",
+          "details": "Score: 50/100",
+          "timestamp": "2025-10-27T18:26:36.599468"
+        },
+        {
+          "severity": "WARNING",
+          "description": "career_suggester interaction 10: Low quality score",
+          "details": "Score: 50/100",
+          "timestamp": "2025-10-27T18:26:43.746184"
+        }
+      ],
+      "status": "WARNING"
+    }
+  },
+  "metadata": {
+    "test_mode": "frontend_recording",
+    "manual_control": true
+  }
+}

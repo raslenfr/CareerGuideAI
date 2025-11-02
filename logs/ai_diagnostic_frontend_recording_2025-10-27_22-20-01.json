@@ -1,0 +1,36 @@
+{
+  "test_id": "frontend_recording_4d4beee7",
+  "session_id": "4d4beee7-5ba7-4803-9ecd-cc3e082a0e10",
+  "timestamp": "2025-10-27T22:20:01.441862",
+  "test_name": "Frontend AI Test Recording",
+  "test_type": "frontend_integrated",
+  "status": "PASS",
+  "overall_score": 80.0,
+  "duration_seconds": 34.71,
+  "summary": {
+    "started_at": "2025-10-27T22:19:26.735884",
+    "stopped_at": "2025-10-27T22:20:01.441862",
+    "total_interactions": 1,
+    "ai_types_tested": [
+      "course_recommender"
+    ],
+    "user_id": 3
+  },
+  "ai_reports": {
+    "course_recommender": {
+      "ai_type": "course_recommender",
+      "score": 80.0,
+      "total_interactions": 1,
+      "avg_response_time_ms": 777.0,
+      "quality_scores": [
+        80
+      ],
+      "issues": [],
+      "status": "PASS"
+    }
+  },
+  "metadata": {
+    "test_mode": "frontend_recording",
+    "manual_control": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "test_id": "frontend_recording_a5eb7c04",
+  "session_id": "a5eb7c04-8fa2-46e6-bed8-ac72458337e6",
+  "timestamp": "2025-11-01T23:11:32.010905",
+  "test_name": "Frontend AI Test Recording",
+  "test_type": "frontend_integrated",
+  "status": "PASS",
+  "overall_score": 90.0,
+  "duration_seconds": 38.22,
+  "summary": {
+    "started_at": "2025-11-01T23:10:53.787616",
+    "stopped_at": "2025-11-01T23:11:32.010905",
+    "total_interactions": 2,
+    "ai_types_tested": [
+      "chatbot"
+    ],
+    "user_id": 5
+  },
+  "ai_reports": {
+    "chatbot": {
+      "ai_type": "chatbot",
+      "score": 90.0,
+      "total_interactions": 2,
+      "avg_response_time_ms": 703.5,
+      "quality_scores": [
+        80,
+        100
+      ],
+      "issues": [],
+      "status": "PASS"
+    }
+  },
+  "metadata": {
+    "test_mode": "frontend_recording",
+    "manual_control": true
+  }
+}
