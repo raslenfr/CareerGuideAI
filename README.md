@@ -3,6 +3,7 @@ A comprehensive Flask backend that provides personalized career guidance, course
 
 🏗️ Project Structure
 text
+
 Backend/
 ├── app.py                           # Flask application entrypoint
 ├── extensions.py                    # SQLAlchemy & Bcrypt initialization
@@ -31,6 +32,7 @@ Backend/
 ├── .env                             # Environment variables
 ├── requirements.txt                 # Python dependencies
 └── README.md
+
 ✨ Features
 Core AI Features
 🤖 AI Career Chatbot - Real-time conversational career advice with chat history
