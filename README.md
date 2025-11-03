@@ -1,5 +1,32 @@
 # 🎓 CareerGuide AI - Complete Project Overview
 
+## 🎬 Live Demo & Professional Links
+
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Type</th>
+<th>Description</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>YouTube Live Demo</strong></td>
+<td>Video Demonstration</td>
+<td>Complete application walkthrough and features demonstration</td>
+<td><a href="https://www.youtube.com/watch?v=mVVapUW0WMM">Watch Live Demo</a></td>
+</tr>
+<tr>
+<td><strong>LinkedIn Project</strong></td>
+<td>Professional Portfolio</td>
+<td>Project showcase on professional profile</td>
+<td><a href="https://www.linkedin.com/in/raslen-ferchihi/details/projects/">View on LinkedIn</a></td>
+</tr>
+</tbody>
+</table>
+
 ## 🌟 Project Resume
 
 CareerGuide AI is a comprehensive full-stack web application that provides personalized career guidance, course recommendations, and AI-powered career advice specifically tailored for the Tunisian market. The system combines modern web technologies with artificial intelligence to deliver accurate, localized career development and learning path recommendations.
